@@ -5,5 +5,5 @@ Simply drop the file you want to encrypt or decrypt into the windows (For encryp
 
 CrroFile use pbkdf2 as key derivation function and use ChaCha20 for encryption.
 
-![image](https://github.com/user-attachments/assets/e2188971-9520-47bd-b82e-52c18a4fd98e)
+<p align="center"><img align="center" src="/images/screenshot.png"></p>
 
