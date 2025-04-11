@@ -116,7 +116,7 @@ class MainWindow(QMainWindow):
         self.file_path = ""
 
         self.setWindowTitle("CrroCryptFile")
-        self.setWindowIcon(QIcon("./Crro_File_logo.png"))
+        self.setWindowIcon(QIcon("./images/Crro_File_logo.png"))
 
         self.setAcceptDrops(True)
 
