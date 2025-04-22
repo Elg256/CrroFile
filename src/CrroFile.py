@@ -240,6 +240,8 @@ class MainWindow(QMainWindow):
     def encrypt(self):
         if self.entry_password.text() != self.entry_confirm_password.text() or not self.entry_password.text().strip():
             self.show_messagebox("Password Error", "Passwords are not the same or empty")
+            self.entry_confirm_password.setVisible(True)
+            self.progress_bar.setVisible(False)
             return
 
         self.entry_confirm_password.setVisible(False)
