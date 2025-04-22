@@ -115,7 +115,7 @@ class MainWindow(QMainWindow):
         self.output_path = ""
         self.file_path = ""
 
-        self.setWindowTitle("CrroCryptFile")
+        self.setWindowTitle("CrroFile")
         self.setWindowIcon(QIcon("./images/Crro_File_logo.png"))
 
         self.setAcceptDrops(True)
@@ -145,6 +145,7 @@ class MainWindow(QMainWindow):
 
         self.entry_password = QLineEdit()
         self.entry_password.setEchoMode(QLineEdit.EchoMode.Password)
+        self.entry_password.setAcceptDrops(False)
         self.layout_password.addWidget(self.entry_password)
 
         self.label_confirm_password = QLabel("Confirm Password: ")
@@ -153,6 +154,7 @@ class MainWindow(QMainWindow):
         self.entry_confirm_password = QLineEdit()
         self.entry_confirm_password.setEchoMode(QLineEdit.EchoMode.Password)
         self.entry_confirm_password.setPlaceholderText("Confirm...")
+        self.entry_confirm_password.setAcceptDrops(False)
         self.layout_password.addWidget(self.entry_confirm_password)
 
 
